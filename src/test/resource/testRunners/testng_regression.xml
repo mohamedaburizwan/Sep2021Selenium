@@ -1,0 +1,19 @@
+<suite name="Open Cart Test Suite" verbose="4" thread-count="4" parallel="tests">
+
+
+<listeners>
+<listener class-name="com.qa.opencart.listeners.ExtentReportListener"/>
+</listeners>
+
+<test name="Open Cart Login Page Test">
+<classes>
+<class name="com.qa.opencart.test.LoginPageTest"/>
+</classes>
+</test>
+
+<test name="Open Cart Account Page Test">
+<classes>
+<class name="com.qa.opencart.test.AccountsPageTest"/>
+</classes>
+</test>
+</suite>
